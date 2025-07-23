@@ -137,9 +137,9 @@ This program analyzes an input text file in the following stages:
 
 ## About this Project
 
-* This short personal project was built to exercise my C programming skills:
-  - Focuses on correctness and edge case handling
-  - Works with low-level I/O
+* This short personal project was built to exercise and demonstrate my C programming skills:
+  - Focus on correctness and edge case handling
+  - Work with low-level I/O
   - Able to write efficient, readable, and testable code
  
 <br>
