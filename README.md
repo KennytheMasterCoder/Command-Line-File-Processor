@@ -91,7 +91,7 @@ Total Word Count for the text file: 213850
 
 ## How to Compile and Run
 
-1. Compile <br>
+1. Compile using gcc: <br>
 `gcc -o first FirstProject.c`
 
 2. Run without filtering (punctuation/digits treated as part of a word) <br>
@@ -128,9 +128,9 @@ This program analyzes an input text file in the following stages:
 <br>
 
 ## Design Notes
-- Uses fixed-size arrays (`int wordLen[20]`, `int alphabetCount[26]`, `int numDigit[10]`) to avoid dynamic memory allocation
+- Uses **fixed-size arrays** (`int wordLen[20]`, `int alphabetCount[26]`, `int numDigit[10]`) to avoid dynamic memory allocation
 - Handles edge cases such as number of arguments, overflow word lengths, and when the file hits EOF + doesn't store the last word
-- Case-insensitive: treats both uppercase and lowercase letters as same letters
+- **Case-insensitive**: treats both uppercase and lowercase letters as same letters
 - Filters non-letter ASCII ranges using the `-p` flag that the user sets
 
 <br>
