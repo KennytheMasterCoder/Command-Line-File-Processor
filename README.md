@@ -135,13 +135,6 @@ This program analyzes an input text file in the following stages:
 
 <br>
 
-## Tools Used
-- Language: C
-- Compiler: GCC
-- System: macOS
-
-<br>
-
 ## About this Project
 
 * This short personal project was built to exercise my C programming skills:
